@@ -1,0 +1,47 @@
+body {
+    /*font-family: "Courier New";*/
+    color: white;
+    background-color: #000000;
+    padding: 35px;
+    text-align: center;
+}
+
+.glowFeatued {
+    margin-top: -20px;
+    color: #fff;
+    font-weight: bolder;
+    -webkit-animation: glowFeatured 1s ease-in-out infinite alternate;
+    -moz-animation: glowFeatured 1s ease-in-out infinite alternate;
+    animation: glowFeatured 1s ease-in-out infinite alternate;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@-webkit-keyframes glowFeatured {
+    from {
+        text-shadow: 0 0 5px #ffb700, 0 0 5px #ffb700, 0 0 10px #ffb700, 0 0 15px #ffb700, 0 0 20px #ffb700, 0 0 25px #ffb700, 0 0 30px #ffb700;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 25px #ffb529, 0 0 30px #ffb529, 0 0 35px #ffb529, 0 0 40px #ffb529, 0 0 45px #ffb529, 0 0 50px #ffb529;
+    }
+}
